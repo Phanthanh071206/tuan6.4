@@ -1,0 +1,49 @@
+
+<html>
+<head>
+    <title>Bài 4</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 cột có độ rộng bằng nhau */
+            grid-template-rows: 100px auto 50px; /* Hàng 1: 100px, Hàng 2: tự động, Hàng 3: 50px */
+            width: 100%;
+            height: 150vh;
+            background-color: #6ec199; /* Màu nền chung */
+            color: yellow;
+            font-size: 18px;
+        }
+
+        .item {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        /* Tạo khoảng cách ở ô giữa (ô số 5) để giống với hình */
+        .item:nth-child(5) {padding: 20px;}
+           
+        
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div>
+        <div class="item">5 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem voluptates qui exercitationem. Tenetur, voluptas enim nemo provident recusandae quidem hic libero repellendus, soluta modi minima delectus, sit aut eveniet doloremque!
+        Facilis consequatur nihil, labore doloremque nam nesciunt suscipit commodi totam aliquid repudiandae cumque distinctio ratione dolor voluptatem sunt unde dolorum voluptatibus doloribus expedita quod, nostrum placeat assumenda non. Quod, ipsam.
+        Eum excepturi maxime unde. Maxime soluta facilis deserunt quo nihil? Rem nihil aliquid ducimus exercitationem nesciunt, consequatur facilis tempore, quae nulla cum ipsa! Necessitatibus quis incidunt consequatur architecto sapiente praesentium.
+        Quia illum ipsam ducimus esse magnam, temporibus beatae fugit? Earum sequi provident delectus molestiae temporibus commodi nesciunt blanditiis, incidunt similique veritatis ipsum aspernatur laboriosam iusto voluptate harum, accusamus, maiores possimus?
+        Dolor, quae quos blanditiis animi modi dolorum nostrum rerum expedita minus, consequuntur non ratione maiores? Porro minus molestiae dolorem, ullam nostrum tempore quo distinctio dolores in. Earum ipsum sed consectetur.</div>
+        <div class="item">6</div>
+        <div class="item">7</div>
+        <div class="item">8</div>
+        <div class="item">9</div>
+    </div>
+
+</body>
+</html>
